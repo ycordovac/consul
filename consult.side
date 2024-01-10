@@ -1,0 +1,153 @@
+{
+  "id": "2542f73e-bf15-48be-a0c0-20220557bc2b",
+  "version": "2.0",
+  "name": "consult",
+  "url": "https://www.exteriores.gob.es/Consulados/lahabana/es/ServiciosConsulares/Paginas/index.aspx",
+  "tests": [{
+    "id": "e7248674-15d6-4915-8c9e-b4700ee187ae",
+    "name": "acceder al captcha",
+    "commands": [{
+      "id": "898102c5-41c4-471c-b464-cfbb01ee9295",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.exteriores.gob.es/Consulados/lahabana/es/ServiciosConsulares/Paginas/index.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f78c90e-25cc-4942-9d2a-3dc6eb9d899d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e40610a-c11d-41ff-9b27-7f9bce34b141",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories",
+      "targets": [
+        ["id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories", "id"],
+        ["name=ctl00$ctl45$g_edd31fb6_ac81_4417_a981_52a85dac1b3b$ctl00$ddlCategories", "name"],
+        ["css=#ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories", "css:finder"],
+        ["xpath=//select[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b']/section/div/fieldset/div/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81c6c206-02ad-4324-98d8-e8d98110361a",
+      "comment": "",
+      "command": "select",
+      "target": "id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories",
+      "targets": [],
+      "value": "label=Visados"
+    }, {
+      "id": "033a3032-9fc4-49b2-a3da-f31e6406b9d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories > .ltr-text:nth-child(11)",
+      "targets": [
+        ["css=#ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories > .ltr-text:nth-child(11)", "css:finder"],
+        ["xpath=//option[@value='Visados']", "xpath:attributes"],
+        ["xpath=//select[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlCategories']/option[11]", "xpath:idRelative"],
+        ["xpath=//option[11]", "xpath:position"],
+        ["xpath=//option[contains(.,'Visados')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ff233b9-7eeb-4860-bd46-7f83e45ff877",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlService",
+      "targets": [
+        ["id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlService", "id"],
+        ["name=ctl00$ctl45$g_edd31fb6_ac81_4417_a981_52a85dac1b3b$ctl00$ddlService", "name"],
+        ["css=#ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlService", "css:finder"],
+        ["xpath=//select[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlService']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b']/section/div/fieldset/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59a9ba39-0660-4d77-a80f-f5903e0308b6",
+      "comment": "",
+      "command": "select",
+      "target": "id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlService",
+      "targets": [],
+      "value": "label=Visados de familiares de ciudadanos UE y de beneficiarios Acuerdo de Retirada UE-Reino Unido"
+    }, {
+      "id": "91dc17a3-e171-4f7c-a116-373c80b53491",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ltr-text:nth-child(62)",
+      "targets": [
+        ["css=.ltr-text:nth-child(62)", "css:finder"],
+        ["xpath=//option[@value='Visados de familiares de ciudadanos UE y de beneficiarios Acuerdo de Retirada UE-Reino Unido']", "xpath:attributes"],
+        ["xpath=//select[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_ddlService']/option[62]", "xpath:idRelative"],
+        ["xpath=//option[62]", "xpath:position"],
+        ["xpath=//option[contains(.,'Visados de familiares de ciudadanos UE y de beneficiarios Acuerdo de Retirada UE-Reino Unido')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dce446c-a67f-4698-aaa7-ea390bf18183",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_btnSearchSC",
+      "targets": [
+        ["id=ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_btnSearchSC", "id"],
+        ["name=ctl00$ctl45$g_edd31fb6_ac81_4417_a981_52a85dac1b3b$ctl00$btnSearchSC", "name"],
+        ["css=#ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_btnSearchSC", "css:finder"],
+        ["xpath=//input[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b_ctl00_btnSearchSC']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ctl45_g_edd31fb6_ac81_4417_a981_52a85dac1b3b']/section/div/fieldset/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//fieldset/div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1faf4dac-f1df-4d71-bc44-9b1e94756197",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(1) > strong",
+      "targets": [
+        ["css=a:nth-child(1) > strong", "css:finder"],
+        ["xpath=//div[@id='ctl00_ctl45_g_0960185a_d152_41a8_b88b_fcee6141cd7d']/div/section/div/div/p[29]/a/strong", "xpath:idRelative"],
+        ["xpath=//p[29]/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Reservar cita de visados de familiar de ciudadano de la Unión')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6913",
+      "windowTimeout": 2000
+    }, {
+      "id": "7bc75737-99da-4c40-a710-0db52185fe72",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6913}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eb22cc30-dfa5-4110-904f-89c2f96e4627",
+      "comment": "",
+      "command": "click",
+      "target": "id=idCaptchaButton",
+      "targets": [
+        ["id=idCaptchaButton", "id"],
+        ["css=#idCaptchaButton", "css:finder"],
+        ["xpath=//button[@id='idCaptchaButton']", "xpath:attributes"],
+        ["xpath=//form[@id='idCaptchaForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue / Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "df8bbe79-6265-48af-b93e-e87767e57502",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e7248674-15d6-4915-8c9e-b4700ee187ae"]
+  }],
+  "urls": ["https://www.exteriores.gob.es/Consulados/lahabana/es/ServiciosConsulares/Paginas/index.aspx"],
+  "plugins": []
+}
